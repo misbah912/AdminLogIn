@@ -1,0 +1,71 @@
+div {
+    font-family:  'Futura Lt BT';
+    padding: 10px;
+    align-items: center;
+}
+.container {
+    background-color:white;
+    display:flex;
+}
+.image {
+    background-color:white;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.image img{
+    height: auto;
+    max-width: 800px;
+    width: 400px;
+}
+
+.flex-item {
+    height: 655px;
+    display: flex;
+    flex-direction: column;
+    background-color:  #ED1C24;
+    flex-grow: 1;
+}
+
+.flex-item h3{
+    font-weight:100;
+    font-size: 30px;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form input{
+    width: 291px;
+    font-size: 15px;
+    margin: 10px;
+    padding:10px 0px;
+    border: none;
+    border-radius:8px;
+}
+
+.form button{
+    width: 200px;
+    border:none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding:10px;
+    min-height:30px; 
+    min-width: 120px;
+    color: #17469D;
+    cursor: pointer;
+}
+
+::placeholder{
+    font-family: 'Futura Lt BT';
+    color: #ED1C24;
+    font-weight: bold;
+
+}
